@@ -21,8 +21,8 @@ author: Kien
 
 navbar-links:
   About Me: "aboutme"
-  # Resources:
-  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  Test Name:
+    - Test Link: "tinyurl.com/yxsw8w2d"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
 

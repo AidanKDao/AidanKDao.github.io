@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-subtitle:
+subtitle: Test Post!
 gh-repo:
 gh-badge:
 tags:
@@ -9,8 +9,6 @@ comments: false
 mathjax: false
 author: Kien
 ---
-
-# Hello World
 
 Hi, my name is Aidan Dao, I am a student at [California State University of Fullerton](http://www.fullerton.edu/) and I am a Computer Science Major.
 

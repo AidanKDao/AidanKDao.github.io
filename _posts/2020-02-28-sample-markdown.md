@@ -1,100 +1,27 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+title: Hello World
+subtitle:
+gh-repo:
+gh-badge:
 tags: [test]
-comments: true
-mathjax: true
-author: Bill Smith
+comments: false
+mathjax: false
+author: Kien
 ---
 
-{: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+# Hello World
 
-**Here is some bold text**
+Hi, my name is Aidan Dao, I am a student at [Cal. State Univ. of Fullerton](http://www.fullerton.edu/) and I am a Computer Science Major.
 
-## Here is a secondary heading
+## Computer Science Projects
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+My GitHub page can be located [here](http://github.com/aidankdao).
 
-Here's a table:
+### CPSC 120
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+* Lab 7, part 1, was based on parking rules. Parking rules were described for these given streets: Ash, Beach, Cedar, and Date; each street having rules for differing days and times. This lab was designed for students to get used to making if, if else, and else statements as well as boolean expressions. It was interesting to see how such easy rules to read and understand, actually took quite a bit of programming to do. I practiced using functions, if statements, boolean expressions, and a switch statement to check which function to check. 
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+* Lab 9, part 1, was programming a file reader and running it through a spellchecker function. In this lab I worked on my technical skills, such as: ifstream, file to file comparison via vectors, vector manipulation, and general use of functions. It was challenging to understand the idea of files interacting with each other at first, but in the end I got the hang of it and really enjoyed this lab. 
 
-How about a yummy crepe?
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
-
-It can also be centered!
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
-
-<details markdown="1">
-<summary>Click here!</summary>
-Here you can see an **expandable** section
-</details>
+* Lab 11, part 1, was our first lab using Class functions. If these are my top three labs, this lab was number one. Being able to modify, and use, a Class function was challenging. It was just new and not intuitive for me at first. Working on this lab made me feel more comfortable with Class functions, as well as making me excited for what lies ahead in my computer science career. In this lab I worked on these technical skills: Class function private and public usage as well as defining, ifstream, and Class vector manipulation.

@@ -10,7 +10,7 @@ mathjax: false
 author: Kien
 ---
 
-Hi, my name is Aidan Dao, I am a student at [California State University of Fullerton](http://www.fullerton.edu/) and I am a Computer Science Major.
+Hi, I'm Aidan, and I'm a Computer Science Major at [California State University of Fullerton](http://www.fullerton.edu/)... 
 
 ## Computer Science Projects
 
